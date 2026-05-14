@@ -1,0 +1,8 @@
+{
+  "theme": "moonstone",
+  "accentColor": "",
+  "cssTheme": "Prism",
+  "enabledCssSnippets": [
+    "code-block-polish"
+  ]
+}

@@ -1,0 +1,31 @@
+# Claude Code 本機設定（不該入 repo）
+.claude/settings.local.json
+
+# Obsidian: 追蹤主題與外掛設定，忽略每次開啟都會變的執行狀態
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/cache/
+
+# Obsidian 各外掛的本機資料（依需要再開）
+.obsidian/plugins/*/data.json
+
+# Obsidian 垃圾桶
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# 編輯器暫存
+*.swp
+*~
+.vscode/
+.idea/
+
+# 暫時檔
+*.tmp
+*.bak
