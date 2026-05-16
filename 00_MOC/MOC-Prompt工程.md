@@ -47,6 +47,7 @@ created: 2026-05-11
 
 - [[萬能Mega-Prompt 模板]]
 - [[ChatGPT-ADHD模式]]
+- [[Prompt-腦清空與排程]] — 上面兩張的整合應用版
 
 ## 待開卡
 

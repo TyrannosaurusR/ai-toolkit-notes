@@ -49,7 +49,7 @@
   - 拆法：不開卡，丟 MOC-工具框架 末端「資源清單」
 
 - [x] 2026-05-11 [ChatGPT ADHD模式](https://www.threads.com/@techtip_s/post/DX4ehuNGOJh?xmt=AQF0nQsgfXxrHtJ6lquMjCpq6jblsrO_CIAlr-NKGKflHDa1qUBkAvmdiXoqJCjXjAiJXbyI9Q)
-  - → 已建立空殼卡 [[ChatGPT-ADHD模式]]（實作卡），待補留言區 5 個指令
+  - → 已整理成 [[ChatGPT-ADHD模式]]（實作卡），5 個指令 code block 已補
 
 - [ ] 2026-05-11 [Skills](https://github.com/mattpocock/skills?fbclid=IwY2xjawRuwXdleHRuA2FlbQIxMABicmlkETFlSTZ2UWdmOTc2Y3hMRll3c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHhSqDxFaCn1_C98DOmShXwWREydHv1m9dfupAX_XEpD5seXh51TD8aZghAS5_aem_dJv0OdaiRE1yu_w31MGthQ)
   - 為什麼留：用技術原則規範AI行為
