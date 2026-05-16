@@ -62,7 +62,7 @@
   - 拆法：1 張對照表卡（不拆成 6 張，未來不會單獨引用 NPU/LPU）
 
 - [x] 2026-05-14 [90% 的「提示詞技巧」都是迷信](https://www.threads.com/@buildthink.ai/post/DYSIIZeD1vh?xmt=AQG0ekdoZtsIe0C0UhKCGwLsKBp6E67F0qOlQIqXwkQRpFlTHeyUnO4AXbn2T8zGdp34yw-urg)
-  - → 已搬到 [[90% 的「提示詞技巧」都是迷信]]（概念卡），內容待寫
+  - → 同源拆出 2 張：[[10_概念卡/90% 的「提示詞技巧」都是迷信]]（前 3 項心法）+ [[萬能Mega-Prompt 模板]]（第 4-6 項模板與場景）
 
 ---
 

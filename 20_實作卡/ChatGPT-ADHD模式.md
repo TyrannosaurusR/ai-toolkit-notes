@@ -49,7 +49,7 @@ source: https://www.threads.com/@techtip_s/post/DX4ehuNGOJh
 
 ## 相關
 
-- [[90% 的「提示詞技巧」都是迷信]]
+- [[10_概念卡/90% 的「提示詞技巧」都是迷信]]
 - [[MOC-Prompt工程]]
 
 ## 來源
