@@ -114,10 +114,8 @@
   - 猜主題： #pipeline #工具框架
   - 拆法：1 張實作卡（工作流）
 
-- [ ] 2026-05-31 [Claude Skills（Anthropic 官方）](https://www.anthropic.com/news/skills)
-  - 為什麼留：把重複 prompt 流程封裝成可重用「客製 AI 員工」，一個 markdown 檔即可、內建 generator 約 30 分鐘建好
-  - 猜主題： #工具框架 #agent
-  - 拆法：1 張概念卡；與既有 Inbox 的 Skills（mattpocock/skills）合併處理，不重複開卡
+- [x] 2026-05-31 [Claude Skills（Anthropic 官方）](https://www.anthropic.com/news/skills)
+  - → 已整理成概念卡 [[Claude Skills]]；MOC-Agent模式 新增「Agent Skills」段（mattpocock/skills 同屬此概念，不另開卡）
 
 - [ ] 2026-05-31 [AI Engineering from Scratch — 免費 AI 工程課程](https://github.com/rohitg00/ai-engineering-from-scratch)
   - 為什麼留：MIT 免費，從手刻反向傳播/tokenizer/attention 到 LLM/Agent/MCP/production，20 階段 400+ 課、每課附可重用 artifact
@@ -204,20 +202,16 @@
   - 猜主題： #工具框架
   - 拆法：1 張工具卡或資源清單（來源 FB「AI/GitHub-實驗室」reel #27）
 
-- [ ] 2026-05-31 [last30days-skill — 跨平台熱門議題研究 Claude Skill](https://github.com/mvanhorn/last30days-skill)
-  - 為什麼留：Claude Code skill，跨 Reddit/X/YouTube/HN/Polymarket/GitHub 等抓近 30 天討論、合成附引用的摘要簡報；2026/3 單日爆 +2,800★
-  - 猜主題： #agent #prompt工程
-  - 拆法：1 張實作卡；與 [[Claude Skills（Anthropic 官方）]] 同屬 Skill 生態（來源 FB「一人公司研究所」reel #31）
+- [x] 2026-05-31 [last30days-skill — 跨平台熱門議題研究 Claude Skill](https://github.com/mvanhorn/last30days-skill)
+  - → 已整理成工具卡 [[last30days-skill]]，母概念 [[Claude Skills]]
 
 - [ ] 2026-05-31 [MiroFish — 多代理 AI 模擬預測引擎](https://github.com/666ghj/MiroFish)
   - 為什麼留：上傳種子資料+自然語言預測需求，建構數千個有記憶/性格的 agent 互動的數位世界來預測未來結果，Python+Vue，約 63k★
   - 猜主題： #agent
   - 拆法：1 張工具卡（來源 FB「AI/GitHub-實驗室」reel #36）
 
-- [ ] 2026-05-31 [baoyu-skills — 寶玉的 Claude Skills 合輯（含漫畫化）](https://github.com/JimLiu/baoyu-skills)
-  - 為什麼留：20+ 個 Claude/Codex skill，含 baoyu-comic（知識漫畫）、xhs-images（小紅書圖卡）、infographic（21 版型資訊圖）、slide-deck、article-illustrator、發文到 X/微信 等，約 20k★。FB 那則「萬物皆可漫畫化」reel 指的就是這套（baoyu-comic）
-  - 猜主題： #agent #prompt工程
-  - 拆法：1 張概念卡（Skill 合輯）；與 [[Claude Skills（Anthropic 官方）]]、last30days-skill 同屬 Skill 生態（來源 FB「一人公司研究所」reel #30）
+- [x] 2026-05-31 [baoyu-skills — 寶玉的 Claude Skills 合輯（含漫畫化）](https://github.com/JimLiu/baoyu-skills)
+  - → 已整理成工具卡 [[baoyu-skills]]，母概念 [[Claude Skills]]
 
 - [ ] 2026-05-31 [DigitalPlat FreeDomain — 免費網域註冊](https://github.com/DigitalPlatDev/FreeDomain)
   - 為什麼留：免費註冊 .US.KG/.QZZ.IO 等多種網域，173k★、50 萬+ 已註冊；非 AI 但實用免費資源

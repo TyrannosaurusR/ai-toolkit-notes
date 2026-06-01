@@ -48,6 +48,12 @@ created: 2026-05-11
 - [[Handoff-Agent間交棒]]
 - [[Group-Collaboration群組協作]]
 
+## Agent Skills（把流程封裝成可重用能力）
+把重複的 SOP 封裝成一個 SKILL.md，Claude 偵測到相符任務時自動載入使用。
+- [[Claude Skills]] ← 概念：什麼是 Skills、怎麼寫
+- [[baoyu-skills]]（內容創作合輯：漫畫/圖卡/簡報/發文）
+- [[last30days-skill]]（跨平台熱門議題研究）
+
 ## 生產環境要點
 
 - [[Human-in-the-loop檢查點設計]]
