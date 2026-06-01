@@ -228,6 +228,35 @@
   - 猜主題： #工具框架
   - 拆法：不開卡，丟資源清單（影音工具，非核心 AI 生產力；來源 FB share/r 1TJuHG5pSS）
 
+## 2026-06
+
+- [ ] 2026-06-02 [hermes-agent — Nous Research 自我改進多平台 Agent](https://github.com/nousresearch/hermes-agent)
+  - 為什麼留：176k★ 的開源 Agent 框架，自主創建/優化 skill，支援 Telegram/Discord/Slack/WhatsApp/Signal，相容 200+ 模型供應商，v0.15.2（2026-05-29）
+  - 猜主題： #agent #工具框架
+  - 拆法：1 張工具卡
+
+- [ ] 2026-06-02 [html-ppt-skill — 自然語言生成 HTML 簡報的 AgentSkill](https://github.com/lewislulu/html-ppt-skill)
+  - 為什麼留：純 HTML/CSS/JS 無編譯依賴，36 主題、31 版型、47 動畫、演講者模式（備注+計時器），用自然語言一鍵出簡報，5.3k★
+  - 猜主題： #agent #工具框架
+  - 拆法：1 張工具卡；與 [[open-slide]] 同類，未來可合成「AI 生成簡報」對照卡
+
+- [ ] 2026-06-02 [open-slide — AI agent 原生簡報框架](https://github.com/1weiho/open-slide)
+  - 為什麼留：自然語言描述 → React 元件簡報，含 CLI/PDF 匯出/瀏覽器檢查器，4.2k★，v1.2.6（2026-05-30）
+  - 猜主題： #agent #工具框架
+  - 拆法：不開卡，丟資源清單；與 [[html-ppt-skill]] 未來合成「AI 生成簡報」對照卡
+
+- [ ] 2026-06-02 [cs249r_book — 哈佛 Edge ML Systems 課程/教科書](https://github.com/harvard-edge/cs249r_book)
+  - 為什麼留：MIT Press 機器學習系統完整課程，含 TinyTorch、Marimo 互動筆記本、MLSys 模擬器、硬體套件（Arduino/Raspberry Pi），24.7k★
+  - 猜主題： #基礎知識 #資源
+  - 拆法：不開卡，丟 MOC 資源清單（學習路線圖）
+
+- [ ] 2026-06-02 [axton-obsidian-visual-skills — Obsidian 視覺化 Claude Skills](https://github.com/axtonliu/axton-obsidian-visual-skills)
+  - 為什麼留：3 個 Obsidian 專用 Claude Code skills（Excalidraw 手繪圖/Mermaid 視覺化/Canvas 製作），讓 Claude 直接在 vault 生成互動式圖表，完整中文支援，MIT，與本知識庫工作流直接相關
+  - 猜主題： #工具框架 #agent
+  - 拆法：1 張工具卡
+
+---
+
 ### 查無內容（放棄）
 
 - 2026-05-31 https://www.instagram.com/11.6_d_m_b_/ — IG 帳號首頁，登入牆+查無，放棄
