@@ -9,41 +9,13 @@ created: 2026-05-11
 
 > 怎麼餵對的資料給模型。2026 趨勢：RAG 正在被「Context Engineering」這個更大的概念吸收。
 
-## 主要方向
+## 索引（已開卡）
 
 ### 0. 文件解析 / 前處理（Ingestion）
 召回品質的天花板：文件先被解析成什麼樣，下游 chunking / 檢索就只能在那之上。
 - [[RAG 文件前處理]] ← 概念：為什麼解析是天花板
-- [[LiteParse]]（規則 / 版面型，本機快速）
-- [[Chandra]]（模型 / OCR 型，掃描手寫）
-
-### 1. 基礎 RAG
-- [[什麼是RAG]]
-- [[Embedding模型怎麼選]]
-- [[Vector-DB比較-Pinecone-Weaviate-Qdrant]]
-
-### 2. Chunking 策略
-切資料的方式直接決定召回品質。
-- [[固定長度vs語意切分]]
-- [[Parent-Child-Chunk]]
-- [[Late-Chunking]]
-
-### 3. 檢索增強
-- [[Hybrid-Search-向量+關鍵字]]
-- [[Reranking-Cross-Encoder]]
-- [[Query-Rewriting查詢改寫]]
-
-### 4. Agentic RAG（2026 主流）
-讓 Agent 自己決定要不要查、查什麼、查得對不對。
-- [[什麼是Agentic-RAG]]
-- [[Self-RAG自我驗證]]
-- [[Corrective-RAG-CRAG]]
-
-### 5. Context Engineering
-比 RAG 更大的命題：模型看到的「所有東西」都該設計。
-- [[Context-Engineering總覽]]
-- [[Memory系統-短期vs長期]]
-- [[Context-Window預算規劃]]
+- [[LiteParse]]（規則 / 版面型，本機快速，Rust）
+- [[Chandra]]（模型 / OCR 型，掃描手寫，4B 參數）
 
 ## 重要原則
 
@@ -53,6 +25,21 @@ created: 2026-05-11
 
 ## 待開卡
 
+- [ ] [[什麼是RAG]]
+- [ ] [[Embedding模型怎麼選]]
+- [ ] [[Vector-DB比較-Pinecone-Weaviate-Qdrant]]
+- [ ] [[固定長度vs語意切分]]
+- [ ] [[Parent-Child-Chunk]]
+- [ ] [[Late-Chunking]]
+- [ ] [[Hybrid-Search-向量+關鍵字]]
+- [ ] [[Reranking-Cross-Encoder]]
+- [ ] [[Query-Rewriting查詢改寫]]
+- [ ] [[什麼是Agentic-RAG]]
+- [ ] [[Self-RAG自我驗證]]
+- [ ] [[Corrective-RAG-CRAG]]
+- [ ] [[Context-Engineering總覽]]
+- [ ] [[Memory系統-短期vs長期]]
+- [ ] [[Context-Window預算規劃]]
 - [ ] GraphRAG
 - [ ] 多模態 RAG
 - [ ] Long-context vs RAG 取捨

@@ -97,7 +97,7 @@ source: https://www.threads.com/@techtip_s/post/DX4ehuNGOJh
 
 ## 相關
 
-- [[10_概念卡/90% 的「提示詞技巧」都是迷信]]
+- [[90趴提示詞迷信]]
 - [[萬能Mega-Prompt 模板]]
 - [[MOC-Prompt工程]]
 

@@ -18,7 +18,7 @@ source: https://www.threads.com/@buildthink.ai/post/DYSIIZeD1vh
 [buildthink.ai](https://www.threads.com/@buildthink.ai) 整理 **2025 年新加坡 Prompt Royale 第三屆四位冠軍**及 **Wharton Prompting Science Report 3** 後提出的共通框架：用 9 個 XML tag 區段把任務拆乾淨，等同於寫一份小型需求規格。
 
 > [!note] 與姊妹卡的關係
-> 本卡涵蓋原文第 4-6 項（模板 + 場景 + 心法）。前 3 項「被證偽的咒語 / Role-play / CoT / 示例數量」見 [[10_概念卡/90% 的「提示詞技巧」都是迷信]]。
+> 本卡涵蓋原文第 4-6 項（模板 + 場景 + 心法）。前 3 項「被證偽的咒語 / Role-play / CoT / 示例數量」見 [[90趴提示詞迷信]]。
 
 ## 何時用 (When)
 
@@ -128,7 +128,7 @@ source: https://www.threads.com/@buildthink.ai/post/DYSIIZeD1vh
 
 ## 相關
 
-- [[10_概念卡/90% 的「提示詞技巧」都是迷信]]
+- [[90趴提示詞迷信]]
 - [[MOC-Prompt工程]]
 
 ## 來源

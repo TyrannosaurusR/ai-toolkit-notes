@@ -9,62 +9,22 @@ created: 2026-05-11
 
 > 單一 / 多 Agent 怎麼協作。2026 業界共識的 6 大基礎模式 + 多 Agent 編排。
 
-## 六大基礎模式
+## 索引（已開卡）
 
-業界（Microsoft、Databricks、Anthropic）大致共識的最小工具箱：
-
-### 1. Reflection（反思）
-讓模型批評自己的答案再改寫。
-- [[Reflection模式]]
-- [[Self-Critique-vs-外部評審]]
-
-### 2. Tool Use（工具使用）
-模型呼叫外部 API、執行程式、查資料。
-- [[Tool-Use基礎]]
-- [[Function-Calling-vs-MCP]]
-
-### 3. Planning（規劃）
-先列任務清單，再逐步執行。
-- [[Plan-and-Execute模式]]
-- [[ReAct-Reason+Act]]
-
-### 4. Multi-Agent Collaboration（多 Agent 協作）
-不同角色的 Agent 合作完成任務。
-- [[Manager-Worker模式]]
-- [[Debate-多Agent辯論]]
-
-### 5. Orchestrator-Worker（編排者-工人）
-一個 Agent 分派任務，多個 Agent 平行執行。
-- [[Orchestrator-Worker模式]]
-
-### 6. Evaluator-Optimizer（評估-優化）
-一個產出、一個評分、迴圈到達標。
-- [[Evaluator-Optimizer模式]]
-
-## 編排策略
-
-- [[Sequential順序執行]]
-- [[Parallel平行執行]]
-- [[Handoff-Agent間交棒]]
-- [[Group-Collaboration群組協作]]
-
-## Agent Skills（把流程封裝成可重用能力）
+### Agent Skills（把流程封裝成可重用能力）
 把重複的 SOP 封裝成一個 SKILL.md，Claude 偵測到相符任務時自動載入使用。
 - [[Claude Skills]] ← 概念：什麼是 Skills、怎麼寫
 - [[baoyu-skills]]（內容創作合輯：漫畫/圖卡/簡報/發文）
-- [[last30days-skill]]（跨平台熱門議題研究）
+- [[last30days-skill]]（跨平台熱門議題研究，附引用）
 - [[axton-obsidian-visual-skills]]（Obsidian 視覺化：Excalidraw/Mermaid/Canvas）
-- [[Karpathy-CLAUDE-md]] ← 實作卡：用 CLAUDE.md 約束 AI 寫程式行為
 - [[CC-Workflow-Studio]]（視覺化設計工作流 → 匯出 Markdown，多 agent 複用）
 
-## Agent 記憶 / 持續學習
-- [[Hivemind]]（自動捕捉 session trace → 生成 SKILL.md，省 25% 成本）
+### Agent 記憶 / 持續學習
+- [[Hivemind]] — session trace 自動 codify 成 SKILL.md，省 25% 成本
 
-## 生產環境要點
-
-- [[Human-in-the-loop檢查點設計]]
-- [[Agent輸出驗證-避免錯誤傳染]]
-- [[Checkpointing-Time-travel]]
+### 比較與心法
+- [[AI 生成簡報工具對照]] — html-ppt-skill vs open-slide 決策指南
+- [[blender-mcp]] — Claude 操控 Blender 做 3D 建模與場景
 
 ## 重要原則
 
@@ -74,6 +34,28 @@ created: 2026-05-11
 
 ## 待開卡
 
+### 六大基礎模式
+- [ ] [[Reflection模式]]
+- [ ] [[Self-Critique-vs-外部評審]]
+- [ ] [[Tool-Use基礎]]
+- [ ] [[Function-Calling-vs-MCP]]
+- [ ] [[Plan-and-Execute模式]]
+- [ ] [[ReAct-Reason+Act]]
+- [ ] [[Manager-Worker模式]]
+- [ ] [[Debate-多Agent辯論]]
+- [ ] [[Orchestrator-Worker模式]]
+- [ ] [[Evaluator-Optimizer模式]]
+
+### 編排策略
+- [ ] [[Sequential順序執行]]
+- [ ] [[Parallel平行執行]]
+- [ ] [[Handoff-Agent間交棒]]
+- [ ] [[Group-Collaboration群組協作]]
+
+### 生產環境
+- [ ] [[Human-in-the-loop檢查點設計]]
+- [ ] [[Agent輸出驗證-避免錯誤傳染]]
+- [ ] [[Checkpointing-Time-travel]]
 - [ ] LangGraph 的 Graph-based 編排
 - [ ] Swarm（OpenAI）vs CrewAI vs AutoGen 比較
 

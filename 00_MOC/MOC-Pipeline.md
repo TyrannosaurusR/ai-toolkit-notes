@@ -9,31 +9,9 @@ created: 2026-05-11
 
 > 怎麼把多步驟串起來。和 Agent 模式的差別：Pipeline 偏「固定流程」，Agent 偏「動態決策」。
 
-## 主要方向
+## 索引（已開卡）
 
-### 1. 基礎流程模式
-- [[Sequential-Pipeline順序管線]]
-- [[Parallel-Fan-out平行扇出]]
-- [[Conditional-Branching條件分支]]
-- [[Map-Reduce模式]]
-
-### 2. 可靠性
-- [[Retry與Backoff策略]]
-- [[Idempotency冪等性]]
-- [[Dead-Letter-Queue失敗訊息存放]]
-
-### 3. 觀測性
-- [[LLM-Tracing-LangSmith-Langfuse]]
-- [[Token-成本追蹤]]
-- [[Quality-Eval評測管線]]
-
-### 4. 人機協作
-- [[Human-in-the-loop檢查點]]
-- [[Approval-Gate關鍵動作確認]]
-
-### 5. 部署模式
-- [[Batch批次vs-Streaming串流]]
-- [[Async非同步處理]]
+（目前尚無正式 Pipeline 卡片——所有相關資源見下方資源清單）
 
 ## Pipeline vs Agent 該選哪個？
 
@@ -53,9 +31,27 @@ created: 2026-05-11
 
 ## 待開卡
 
+- [ ] [[Sequential-Pipeline順序管線]]
+- [ ] [[Parallel-Fan-out平行扇出]]
+- [ ] [[Conditional-Branching條件分支]]
+- [ ] [[Map-Reduce模式]]
+- [ ] [[Retry與Backoff策略]]
+- [ ] [[Idempotency冪等性]]
+- [ ] [[Dead-Letter-Queue失敗訊息存放]]
+- [ ] [[LLM-Tracing-LangSmith-Langfuse]]
+- [ ] [[Token-成本追蹤]]
+- [ ] [[Quality-Eval評測管線]]
+- [ ] [[Human-in-the-loop檢查點]]
+- [ ] [[Approval-Gate關鍵動作確認]]
+- [ ] [[Batch批次vs-Streaming串流]]
+- [ ] [[Async非同步處理]]
 - [ ] DSPy 的 pipeline 編譯
 - [ ] Temporal / Inngest 等工作流引擎
 - [ ] LangGraph 當 pipeline 用
+
+## 資源清單
+
+- [n8n-workflows (Zie619)](https://github.com/Zie619/n8n-workflows) — 4,300+ 可匯入 n8n 流程範本，SQLite FTS5 搜尋
 
 ## 參考資料
 
