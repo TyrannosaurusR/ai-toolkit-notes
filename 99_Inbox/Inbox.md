@@ -68,15 +68,11 @@
   - 為甚麼留：能繞反機器人、能自己定位自己，不會被動態網頁搞到
   - 猜主題： #工具框架 
 
-- [ ] 2026-05-31 [LiteParse — LlamaIndex 本機文件解析器](https://github.com/run-llama/liteparse)
-  - 為什麼留：Rust 寫的本機解析器，免雲端/免 API key，解析 PDF/DOCX/PPTX/XLSX/圖片並保留表格與版面結構、內建 OCR，專為餵 RAG/Agent 前處理設計
-  - 猜主題： #rag #工具框架
-  - 拆法：1 張工具卡；與 [[Chandra]] 同屬「RAG 文件前處理」，未來可能合併成 1 概念卡＋衛星
+- [x] 2026-05-31 [LiteParse — LlamaIndex 本機文件解析器](https://github.com/run-llama/liteparse)
+  - → 已整理成 [[LiteParse]]（工具卡）＋ 概念卡 [[RAG 文件前處理]]；MOC-Context-RAG 新增「文件解析/前處理」段
 
-- [ ] 2026-05-31 [Chandra — datalab 開源 OCR/文件解析模型](https://github.com/datalab-to/chandra)
-  - 為什麼留：4B 參數 OCR 模型，把複雜 PDF/圖片（雙欄、表格、公式、手寫、勾選框）轉成結構完整 Markdown/HTML/JSON 並保留 bounding box，olmOCR 85.9% SOTA
-  - 猜主題： #工具框架 #rag
-  - 拆法：1 張工具卡；與 [[LiteParse]] 對照（模型型 vs 規則型解析）
+- [x] 2026-05-31 [Chandra — datalab 開源 OCR/文件解析模型](https://github.com/datalab-to/chandra)
+  - → 已整理成 [[Chandra]]（工具卡），與 [[LiteParse]] 同掛概念卡 [[RAG 文件前處理]]
 
 - [ ] 2026-05-31 [Karpathy 版 CLAUDE.md（andrej-karpathy-skills）](https://github.com/forrestchang/andrej-karpathy-skills)
   - 為什麼留：依 Karpathy 對 LLM 寫程式失誤的觀察整理的單一 CLAUDE.md（Think Before Coding / Simplicity First / Surgical Changes / Goal-Driven），放專案根目錄即用，GitHub 爆紅
