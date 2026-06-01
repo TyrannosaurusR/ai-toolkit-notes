@@ -38,6 +38,50 @@ created: 2026-06-01
 
 ## 怎麼做 (How)
 
+```mermaid
+flowchart TB
+    subgraph input["原始文件"]
+        A1[數位 PDF / Office]
+        A2[掃描檔 / 拍照]
+        A3[手寫 / 表單]
+    end
+
+    subgraph parse["解析層（天花板在這）"]
+        direction LR
+        B1["LiteParse\n規則型 · Rust · 本機"]
+        B2["Chandra\n模型型 · OCR · 4B參數"]
+    end
+
+    subgraph output["乾淨文字＋結構"]
+        C1[Markdown / HTML / JSON]
+        C2[保留表格 · 版面 · bounding box]
+    end
+
+    subgraph pipeline["RAG Pipeline 下游"]
+        D1[Chunking 切分]
+        D2[Embedding 向量化]
+        D3[Vector DB 儲存]
+        D4[Retrieval 檢索]
+    end
+
+    A1 -->|數位原生| B1
+    A2 -->|掃描/拍照| B2
+    A3 -->|手寫/表單| B2
+    B1 --> output
+    B2 --> output
+    output --> D1
+    D1 --> D2
+    D2 --> D3
+    D3 --> D4
+
+    style input fill:#e7f5ff,stroke:#1971c2
+    style parse fill:#fff4e6,stroke:#e67700
+    style output fill:#d3f9d8,stroke:#2f9e44
+    style pipeline fill:#f3d9fa,stroke:#862e9c
+    style B1 fill:#a5d8ff,stroke:#1971c2,color:#1e40af
+    style B2 fill:#ffd8a8,stroke:#d9480f,color:#7c2d12
+```
+
 解析工具大致分兩派，依「文件長相」選：
 
 > [!check] 規則 / 版面型解析（快、本機、結構化檔案）
