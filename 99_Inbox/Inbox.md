@@ -250,10 +250,8 @@
   - 猜主題： #基礎知識 #資源
   - 拆法：不開卡，丟 MOC 資源清單（學習路線圖）
 
-- [ ] 2026-06-02 [axton-obsidian-visual-skills — Obsidian 視覺化 Claude Skills](https://github.com/axtonliu/axton-obsidian-visual-skills)
-  - 為什麼留：3 個 Obsidian 專用 Claude Code skills（Excalidraw 手繪圖/Mermaid 視覺化/Canvas 製作），讓 Claude 直接在 vault 生成互動式圖表，完整中文支援，MIT，與本知識庫工作流直接相關
-  - 猜主題： #工具框架 #agent
-  - 拆法：1 張工具卡
+- [x] 2026-06-02 [axton-obsidian-visual-skills — Obsidian 視覺化 Claude Skills](https://github.com/axtonliu/axton-obsidian-visual-skills)
+  - → 已整理成 [[axton-obsidian-visual-skills]]（工具卡）；MOC-工具框架「Claude + 創意軟體」已加條目
 
 ---
 

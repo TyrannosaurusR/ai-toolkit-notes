@@ -30,6 +30,7 @@ created: 2026-05-11
 ## 領域應用 / Claude + 創意軟體
 
 - [[blender-mcp]] - Claude 操控 Blender 做 3D 建模與場景
+- [[axton-obsidian-visual-skills]] - Claude Code Skills：在 Obsidian vault 生成 Excalidraw/Mermaid/Canvas 圖
 - [[Fusion-Claude整合]] - Claude 操控 Autodesk Fusion 360（待開卡）
 
 ## 協定 / 標準
