@@ -53,6 +53,12 @@ created: 2026-05-11
 - [[Claude Skills]] ← 概念：什麼是 Skills、怎麼寫
 - [[baoyu-skills]]（內容創作合輯：漫畫/圖卡/簡報/發文）
 - [[last30days-skill]]（跨平台熱門議題研究）
+- [[axton-obsidian-visual-skills]]（Obsidian 視覺化：Excalidraw/Mermaid/Canvas）
+- [[Karpathy-CLAUDE-md]] ← 實作卡：用 CLAUDE.md 約束 AI 寫程式行為
+- [[CC-Workflow-Studio]]（視覺化設計工作流 → 匯出 Markdown，多 agent 複用）
+
+## Agent 記憶 / 持續學習
+- [[Hivemind]]（自動捕捉 session trace → 生成 SKILL.md，省 25% 成本）
 
 ## 生產環境要點
 

@@ -74,15 +74,11 @@
 - [x] 2026-05-31 [Chandra — datalab 開源 OCR/文件解析模型](https://github.com/datalab-to/chandra)
   - → 已整理成 [[Chandra]]（工具卡），與 [[LiteParse]] 同掛概念卡 [[RAG 文件前處理]]
 
-- [ ] 2026-05-31 [Karpathy 版 CLAUDE.md（andrej-karpathy-skills）](https://github.com/forrestchang/andrej-karpathy-skills)
-  - 為什麼留：依 Karpathy 對 LLM 寫程式失誤的觀察整理的單一 CLAUDE.md（Think Before Coding / Simplicity First / Surgical Changes / Goal-Driven），放專案根目錄即用，GitHub 爆紅
-  - 猜主題： #prompt工程 #agent
-  - 拆法：1 張實作卡（可放範本內容）
+- [x] 2026-05-31 [Karpathy 版 CLAUDE.md（andrej-karpathy-skills）](https://github.com/forrestchang/andrej-karpathy-skills)
+  - → 已整理成 [[Karpathy-CLAUDE-md]]（實作卡，含四條準則全文）；MOC-Prompt工程 已加
 
-- [ ] 2026-05-31 [Hivemind — AI coding agent 共享記憶系統](https://github.com/activeloopai/hivemind)
-  - 為什麼留：把每次 session 操作錄成 trace、挖出重複模式自動 codify 成 SKILL.md 跨 session/團隊重用；LoCoMo 省 25% 成本、token 少 1.7 倍；支援 Claude Code/Codex/Cursor
-  - 猜主題： #agent #token優化
-  - 拆法：1 張工具卡
+- [x] 2026-05-31 [Hivemind — AI coding agent 共享記憶系統](https://github.com/activeloopai/hivemind)
+  - → 已整理成 [[Hivemind]]（工具卡）；MOC-Agent模式 新增「Agent 記憶/持續學習」段
 
 - [ ] 2026-05-31 [n8n-workflows — 4300+ 自動化流程範本庫（Zie619）](https://github.com/Zie619/n8n-workflows)
   - 為什麼留：4,300+ 個可搜尋/可匯入的 n8n 流程範本，SQLite FTS5 全文搜尋＋線上瀏覽介面，直接 import 改造省去從零搭建
@@ -94,10 +90,8 @@
   - 猜主題： #工具框架 #agent
   - 拆法：不開卡，丟資源清單（偏資安、非核心生產力；有共鳴再開工具卡）
 
-- [ ] 2026-05-31 [CC Workflow Studio — 視覺化 AI agent 工作流編輯器](https://github.com/breaking-brake/cc-wf-studio)
-  - 為什麼留：拖拉式畫布設計多 agent 編排（sub-agent/skills/MCP），一鍵匯出成 Claude Code/Copilot/Gemini CLI 可讀的 Markdown/JSON，含 VSCode 擴充/CLI/MCP server
-  - 猜主題： #agent #工具框架
-  - 拆法：1 張工具卡
+- [x] 2026-05-31 [CC Workflow Studio — 視覺化 AI agent 工作流編輯器](https://github.com/breaking-brake/cc-wf-studio)
+  - → 已整理成 [[CC-Workflow-Studio]]（工具卡）；MOC-Agent模式 已加
 
 - [ ] 2026-05-31 [cal.diy — Cal.com 的 MIT 開源版排程系統](https://github.com/calcom/cal.diy)
   - 為什麼留：Cal.com 把商業版閉源後，將免費碼以 MIT 重發為社群版 cal.diy，可自架、免月費的預約排程基礎設施
@@ -235,15 +229,11 @@
   - 猜主題： #agent #工具框架
   - 拆法：1 張工具卡
 
-- [ ] 2026-06-02 [html-ppt-skill — 自然語言生成 HTML 簡報的 AgentSkill](https://github.com/lewislulu/html-ppt-skill)
-  - 為什麼留：純 HTML/CSS/JS 無編譯依賴，36 主題、31 版型、47 動畫、演講者模式（備注+計時器），用自然語言一鍵出簡報，5.3k★
-  - 猜主題： #agent #工具框架
-  - 拆法：1 張工具卡；與 [[open-slide]] 同類，未來可合成「AI 生成簡報」對照卡
+- [x] 2026-06-02 [html-ppt-skill — 自然語言生成 HTML 簡報的 AgentSkill](https://github.com/lewislulu/html-ppt-skill)
+  - → 合併整理成概念對照卡 [[AI 生成簡報工具對照]]（html-ppt-skill vs open-slide）
 
-- [ ] 2026-06-02 [open-slide — AI agent 原生簡報框架](https://github.com/1weiho/open-slide)
-  - 為什麼留：自然語言描述 → React 元件簡報，含 CLI/PDF 匯出/瀏覽器檢查器，4.2k★，v1.2.6（2026-05-30）
-  - 猜主題： #agent #工具框架
-  - 拆法：不開卡，丟資源清單；與 [[html-ppt-skill]] 未來合成「AI 生成簡報」對照卡
+- [x] 2026-06-02 [open-slide — AI agent 原生簡報框架](https://github.com/1weiho/open-slide)
+  - → 合併整理成概念對照卡 [[AI 生成簡報工具對照]]
 
 - [ ] 2026-06-02 [cs249r_book — 哈佛 Edge ML Systems 課程/教科書](https://github.com/harvard-edge/cs249r_book)
   - 為什麼留：MIT Press 機器學習系統完整課程，含 TinyTorch、Marimo 互動筆記本、MLSys 模擬器、硬體套件（Arduino/Raspberry Pi），24.7k★
