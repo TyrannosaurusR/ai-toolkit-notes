@@ -243,6 +243,16 @@
 - [x] 2026-06-02 [axton-obsidian-visual-skills — Obsidian 視覺化 Claude Skills](https://github.com/axtonliu/axton-obsidian-visual-skills)
   - → 已整理成 [[axton-obsidian-visual-skills]]（工具卡）；MOC-工具框架「Claude + 創意軟體」已加條目
 
+- [ ] 2026-06-05 [NVIDIA NIM — 免費 AI 推論 API（TensorRT 加速，含 Llama 405B / Qwen 2.5 Coder）](https://build.nvidia.com)
+  - 為什麼留：每模型 1,000 次免費呼叫；Qwen 2.5 Coder 32B 是免費 provider 裡程式碼最強選項之一；搭配 free-claude-code 路由用
+  - 猜主題：#工具框架 #資源
+  - 拆法：不開卡，留在 MOC 資源清單（provider 目錄）；或在 free-claude-code 工具卡的「推薦路由設定」裡補一段
+
+- [ ] 2026-06-05 [free-claude-code — 把 Claude Code 接到免費/低價 AI Provider 的本地代理](https://github.com/Alishahryar1/free-claude-code)
+  - 為什麼留：支援 17 個 provider（NVIDIA NIM / OpenRouter / Gemini / DeepSeek / Groq / Ollama 等），按 Opus/Sonnet/Haiku 智能路由；Claude Code CLI、VS Code、JetBrains 全部相容，一行指令安裝
+  - 猜主題：#工具框架 #agent
+  - 拆法：1 張工具卡（工具定性明確，適合獨立存在）
+
 ---
 
 ### 查無內容（放棄）
